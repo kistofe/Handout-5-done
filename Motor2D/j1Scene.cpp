@@ -105,14 +105,3 @@ bool j1Scene::CleanUp()
 	return true;
 }
 
-iPoint j1Scene::GetTilefromMouse(int x, int y) const
-{
-	iPoint ret;
-
-	ret.x = x * 
-	ret.y = y * data.tile_height;
-
-
-
-	return ret;
-}

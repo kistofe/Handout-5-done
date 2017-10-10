@@ -31,7 +31,7 @@ void j1Map::Draw()
 	if(map_loaded == false)
 		return;
 
-	// TODO 5: Prepare the loop to draw all tilesets + Blit
+		// TODO 5: Prepare the loop to draw all tilesets + Blit
 	for (uint i = 0; i < data.height; i++)
 	{
 		for (uint j = 0; j < data.width; j++)

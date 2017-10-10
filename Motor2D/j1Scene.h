@@ -32,7 +32,6 @@ public:
 	// Called before quitting
 	bool CleanUp();
 
-	iPoint GetTilefromMouse(int x, int y) const;
 
 private:
 
